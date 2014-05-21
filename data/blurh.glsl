@@ -1,3 +1,9 @@
+//     Description : 2D blur based on http://polycode.org/tutorial/screen_shaders
+//     Author : Alexandro Trevisan
+//     Lastmod : 20140521
+//     License : Distributed under the MIT License
+//               Based on http://polycode.org/tutorial/screen_shaders
+
 uniform sampler2D screenColorBuffer;
 const float blurSize = 1.0/1024.0;
  
