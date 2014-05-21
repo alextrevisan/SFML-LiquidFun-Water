@@ -61,12 +61,8 @@
 		</Linker>
 		<Unit filename="Box.cpp" />
 		<Unit filename="Box.h" />
-		<Unit filename="LiquidTest.cpp" />
-		<Unit filename="LiquidTest.h" />
 		<Unit filename="Manager.cpp" />
 		<Unit filename="Manager.h" />
-		<Unit filename="WaterParticle.cpp" />
-		<Unit filename="WaterParticle.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

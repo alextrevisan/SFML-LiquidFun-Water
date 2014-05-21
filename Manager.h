@@ -3,7 +3,7 @@
 
 #include <SFML/Graphics.hpp>
 #include <Box2d/Box2d.h>
-#define METERTOPIXEL 50.0f
+const float METERTOPIXEL = 50.0f;
 
 class Manager
 {
