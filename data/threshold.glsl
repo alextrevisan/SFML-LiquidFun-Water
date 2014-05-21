@@ -5,16 +5,11 @@ precision mediump float;
 uniform vec2 resolution;
 uniform float time;
 
-//
-// Description : Array and textureless GLSL 2D/3D/4D simplex 
-//               noise functions.
-//      Author : Ian McEwan, Ashima Arts.
-//  Maintainer : ijm
-//     Lastmod : 20110822 (ijm)
-//     License : Copyright (C) 2014 Ashima Arts. All rights reserved.
-//               Distributed under the MIT License. See LICENSE file.
-//               https://github.com/ashima/webgl-noise
-// 
+//     Description : 2D water effect based on https://github.com/ashima/webgl-noise
+//     Author : Alexandro Trevisan
+//     Lastmod : 20140520
+//     License : Distributed under the MIT License. See LICENSE file.
+//               Based on https://github.com/ashima/webgl-noise
 
 vec3 mod289(vec3 x) {
 	return x - floor(x * (1.0 / 289.0)) * 289.0;
