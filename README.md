@@ -1,4 +1,4 @@
 SFML-LiquidFun-Water
 ====================
 
-Water effect using LiquidFun (Box2D) 
+Water effect using SFML and LiquidFun (Box2D) 
