@@ -7,7 +7,6 @@
 class Box
 {
     public:
-        Box(b2World& world);
         Box(b2World& world, int x, int y, float density);
         virtual ~Box();
         sf::Sprite& GetSprite(){return mSprite;}

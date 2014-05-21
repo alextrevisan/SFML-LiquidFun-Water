@@ -96,12 +96,12 @@ int main()
                 if(sf::Mouse::isButtonPressed(sf::Mouse::Right))
                 {
                     sf::Vector2i mouse_pos = sf::Mouse::getPosition(*App);
-                    box.push_back(new Box(world,mouse_pos.x,mouse_pos.y,1000));
+                    box.push_back(new Box(world,mouse_pos.x,mouse_pos.y,5));
                 }
                 if(sf::Mouse::isButtonPressed(sf::Mouse::Middle))
                 {
                     sf::Vector2i mouse_pos = sf::Mouse::getPosition(*App);
-                    box.push_back(new Box(world,mouse_pos.x,mouse_pos.y,0.5));
+                    box.push_back(new Box(world,mouse_pos.x,mouse_pos.y,0.9));
                 }
             }
         }
